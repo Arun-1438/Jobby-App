@@ -1,0 +1,13 @@
+.not-cont {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.not-cont img {
+  width: 30%;
+  margin-bottom: 30px;
+}

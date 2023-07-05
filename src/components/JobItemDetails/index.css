@@ -1,0 +1,174 @@
+.job-item-details {
+  padding: 50px;
+  background-color: black;
+  min-height: 100vh;
+}
+.job-details-card {
+  background-color: #272727;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.similar-details-card {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.similar-details-card li {
+  width: 100%;
+}
+.error-cont {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.error-cont h1 {
+  color: white;
+  margin: 15px 0px;
+}
+.error-cont p {
+  color: #cbd5e1;
+}
+.custom-button {
+  background-color: #4f46e5;
+  color: white;
+  margin: 20px 0px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.job-details-card .comp-profile h1 {
+  color: white;
+}
+.job-details-card .comp-profile p {
+  color: white;
+}
+.job-details-card .comp-add {
+  border-bottom: 3px solid #b6c5ff;
+  padding-bottom: 25px;
+}
+.job-details-card .comp-add .details-cont {
+  display: flex;
+  flex-direction: column;
+}
+.job-details-card .comp-add .details {
+  padding-right: 70px;
+  margin-bottom: 10px;
+}
+.job-details-card .comp-add .add {
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.job-details-card .comp-add p {
+  color: #cbd5e1;
+}
+.job-details-card .comp-add h3 {
+  color: white;
+}
+.title-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title-cont h1 {
+  color: white;
+  font-size: 30px;
+}
+.title-cont .link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.title-cont .link .icon {
+  color: #4f46e5;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.description-const p {
+  color: #cbd5e1;
+  font-size: 23px;
+  font-weight: 500;
+}
+.life-at-container {
+  margin: 15px 0px 0px;
+}
+.life-at-container h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.life-at-container div p {
+  font-size: 20px;
+  color: #cbd5e1;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+.life-at-container div img {
+  width: 100%;
+}
+.skills-cont h1 {
+  color: white;
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.skills-list {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.skills-list li {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  flex: 1 1 250px 1fr;
+}
+.skills-list li img {
+  width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-card .comp-add .details-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .life-at-container div {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+  }
+  .life-at-container div p {
+    width: 50%;
+  }
+  .life-at-container div img {
+    width: 25%;
+  }
+  .similar-details-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .similar-details-card .li {
+    width: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}

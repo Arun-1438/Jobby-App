@@ -1,0 +1,67 @@
+.link-item {
+  text-decoration: none;
+  color: white;
+}
+.job-card {
+  background-color: #272727;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.h-line {
+  background-color: white;
+  border: 2px solid white;
+}
+
+.comp-profile {
+  display: flex;
+  align-items: center;
+}
+.comp-profile img {
+  width: 70px;
+  margin-right: 15px;
+}
+.comp-profile h1 {
+  font-size: 25px;
+}
+.comp-profile p {
+  font-size: 22px;
+  font-weight: 600;
+}
+.comp-profile div div {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.star-icon {
+  color: orange;
+  font-size: 25px;
+  margin-right: 5px;
+}
+.comp-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.comp-add div {
+  display: flex;
+  align-items: center;
+}
+.comp-add div div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.comp-add div div .add {
+  font-size: 22px;
+}
+.desc-title {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.desc-cont {
+  font-size: 18px;
+}
